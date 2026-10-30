@@ -223,3 +223,298 @@ console.log('"' + quote + '" - ' + author);*/
                             🧠 JavaScript Beginner Practice:
 
           ===========================================================================*/
+
+
+                 /*============================================================
+         
+                                       part 1
+                             ✴️ Arithmetic Operator Tasks
+
+                  ==============================================================*/
+
+
+                         /* ========================================
+                                         question 01
+                1. Ask the user to enter two numbers. Show the result of adding them using alert().
+
+                // answer no 1;
+
+                let num1 = prompt("Enter the first number:");
+                let num2 = prompt("Enter the second number:");
+                let sum = Number(num1) + Number(num2);
+                alert("The result of adding " + num1 + " and " + num2 + " is: " + sum);
+                            ======================================== */
+
+
+
+                            /* ========================================
+                                         question 02
+ 2. Ask for two numbers. Subtract the second number from the first and log the result to the console.
+
+                // answer no 2;
+
+                let num1 = prompt("Enter the first number:");
+                let num2 = prompt("Enter the second number:");
+                let difference = Number(num1) - Number(num2);
+                console.log("The result of subtracting " + num2 + " from " + num1 + " is: " + difference);
+                            ========================================*/
+
+                              /* ========================================
+                                         question 03
+                3. Ask for two numbers. Multiply them and display the answer in an alert.
+
+                // answer no 3;
+
+                let num1 =prompt("enter first number");
+                let num2 =prompt("enter second number");
+                let product = Number(num1) * Number(num2);
+                alert("The result of multiplying " + num1 + " and " + num2 + " is: " + product);
+                                ========================================*/
+
+
+                                /* ========================================
+                                          question 04
+                 4. Ask the user for two numbers. Divide the first by the second and log the result.
+
+
+                // answer no 4;
+
+                let num1 = prompt("Enter the first number:");
+                let num2 = prompt("Enter the second number:");
+                let quotient = Number(num1) / Number(num2);
+                console.log("The result of dividing " + num1 + " by " + num2 + " is: " + quotient);
+                                  ========================================*/
+
+
+
+                                  /* ========================================
+                                                   question 05
+ 5. Ask the user for two numbers and show the remainder when the first is divided by the second (use %).
+
+                // answer no 5;
+
+                let num1 =prompt("Enter the first number:");
+                let num2 =prompt("Enter the second number:");
+                let remainder = Number(num1) % Number(num2);
+                alert("The remainder when " + num1 + " is divided by " + num2 + " is: " + remainder);
+                                     ========================================*/
+
+
+                        
+                /*============================================================
+         
+                                       part 2
+                             ✴️ Assignment Operator Tasks
+
+                  ==============================================================*/
+
+
+                         /* ========================================
+                                         question 06
+         6. Create a variable with the value 10. Add 5 to it using += and log the new value.
+
+                // answer no 6;
+
+                let number = 10;
+                number += 5;
+                console.log("The new value after adding 5 is: " + number);
+                            ========================================*/
+
+                            /* ========================================
+                                         question 07
+        7. Create a variable with the value 20. Subtract 4 from it using -= and alert the result.
+
+                // answer no 7;
+
+                let number = 20;
+                number -= 4;
+                alert("The new value after subtracting 4 is: " + number);
+                            ========================================*/
+
+
+                            /* ========================================
+                                         question 08
+         8. Create a variable with the value 6. Multiply it by 3 using *= and display the result.
+
+                // answer no 8;
+
+                let number = 6;
+                number *= 3;
+                console.log("The new value after multiplying by 3 is: " + number);
+                            ========================================*/
+
+
+                            /* ========================================
+                                         question 09
+              9. Set a variable to 50. Divide it by 2 using /= and log the final value.
+
+                // answer no 9;
+
+                let number = 50;
+                number /= 2;
+                console.log("The new value after dividing by 2 is: " + number);
+                            ========================================*/
+
+
+                            /* ========================================
+                                         question 10
+    10. Create a variable, assign it a value from prompt(), then increase it by 10 and show the result.
+
+                // answer no 10;
+
+                let number = Number(prompt("Enter a number:"));
+                number += 10;
+                alert("The new value after increasing by 10 is: " + number);
+                            ========================================*/
+
+
+
+                /*============================================================
+         
+                                       part 3
+                             ✴️ Comparison Operator Tasks
+
+                  ==============================================================*/
+
+                        /* ========================================
+                                         question 11
+11. Ask the user for two numbers. Use > to check if the first number is greater than the second, then log the result (true/false).
+
+                // answer no 11;
+
+                let num1 = Number(prompt("Enter the first number:"));
+                let num2 = Number(prompt("Enter the second number:"));
+                let isGreater = num1 > num2;
+                console.log("Is the first number greater than the second? " + isGreater);
+                            ========================================*/
+
+                            /* ========================================
+                                         question 12
+12. Ask the user for two numbers. Use < to check if the first number is less than the second,then alert the result.
+
+                // answer no 12;
+
+                let num1 = Number(prompt("Enter the first number:"));   
+                let num2 = Number(prompt("Enter the second number:"));
+                let isLess = num1 < num2;
+                alert("Is the first number less than the second? " + isLess);
+                            ========================================
+
+                            /* ========================================
+                                        question 13
+                13. Ask the user for a number. Use == to check if it equals 100 and log the result.
+
+                // answer no 13;
+
+                let number = Number(prompt("Enter a number:"));
+                let isEqualTo100 = number == 100;
+                console.log("Does the number equal 100? " + isEqualTo100);
+                            ========================================*/
+
+                            /* ========================================
+                                          question 14
+          14. Ask the user for a number. Use === to check if it strictly equals 100 and log the result.
+
+                // answer no 14;
+
+                let number = Number(prompt("Enter a number:"));
+                let isStrictEqualTo100 = number === 100;
+                console.log("Does the number strictly equal 100? " + isStrictEqualTo100);
+                            ========================================
+
+                            /* ========================================
+                                        question 15 
+        15. Ask the user for two numbers. Use != to check if they are not equal and alert the result.
+
+                // answer no 15;
+
+                let num1 = Number(prompt("Enter the first number:"));
+                let num2 = Number(prompt("Enter the second number:"));
+                let areNotEqual = num1 != num2;
+                alert("Are the two numbers not equal? " + areNotEqual);
+                            ========================================*/
+
+                            /* ========================================
+                                          question 16
+ 16. Ask the user for two numbers. Use !== to check if they are not strictly equal and log the result.
+
+                // answer no 16;
+
+                let num1 = Number(prompt("Enter the first number:"));
+                let num2 = Number(prompt("Enter the second number:"));
+                let areNotStrictlyEqual = num1 !== num2;
+                console.log("Are the two numbers not strictly equal? " + areNotStrictlyEqual);
+                            ========================================*/
+
+
+                            /* ========================================
+                                         question 17
+17. Ask for two numbers and check if the first is greater than or equal to the second.Display result using alert.
+
+                // answer no 17;
+
+                let num1 = Number(prompt("Enter the first number:"));
+                let num2 = Number(prompt("Enter the second number:"));
+                let isFirstGreaterOrEqual = num1 >= num2;
+                alert("Is the first number greater than or equal to the second? " + isFirstGreaterOrEqual);
+                            ========================================*/
+
+
+                            /* ========================================
+                                        question 18
+18. Ask for two numbers and check if the first is less than or equal to the second.Display result using alert.
+
+                // answer no 18;
+
+                let num1 = Number(prompt("Enter the first number:"));
+                let num2 = Number(prompt("Enter the second number:"));
+                let isFirstLessOrEqual = num1 <= num2;
+                alert("Is the first number less than or equal to the second? " + isFirstLessOrEqual);
+                            ========================================*/
+
+
+
+
+                /*============================================================
+         
+                                       part 4
+                             ✴️ Logical Operator Tasks
+
+                  ==============================================================*/
+
+
+
+                        /* ========================================
+                                         question 19
+19. Ask the user for age and country. Use && to check if age is over 18 and country is"USA". Log the result.
+
+                // answer no 19;
+
+                let age = Number(prompt("Enter your age:"));
+                let country = prompt("Enter your country:");
+                let isEligible = age > 18 && country === "USA";
+                console.log("Is the user eligible? " + isEligible);
+                            ========================================*/
+
+
+                         /* ========================================
+                                         question 20
+20. Ask the user to enter a color and a shape. Use || to check if the color is "red" or the shape is "circle". Show the result in an alert.
+
+                // answer no 20;
+
+                let color = prompt("Enter a color:");
+                let shape = prompt("Enter a shape:");
+                let isMatch = color === "red" || shape === "circle";
+                alert("Does the color match or the shape match? " + isMatch);
+                            ========================================*/
+
+
+
+
+
+
+
+
+                        
+
